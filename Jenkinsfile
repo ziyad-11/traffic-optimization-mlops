@@ -9,17 +9,17 @@ pipeline {
     }
 }
 
-        stage('Install Dependencies') {
-            steps {
-                bat 'pip install -r requirements.txt'
-            }
-        }
+       stage('Install Dependencies') {
+    steps {
+        bat 'python -m pip install -r requirements.txt'
+    }
+}
 
         stage('Train Model') {
-            steps {
-                bat 'python src/train_model.py'
-            }
-        }
+    steps {
+        bat 'python src/train_model.py'
+    }
+}
 
         stage('Build Docker Image') {
             steps {
