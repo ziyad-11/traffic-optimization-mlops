@@ -3,11 +3,11 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/ziyad-11/traffic-optimization-mlops.git'
-            }
-        }
+       stage('Clone Repository') {
+    steps {
+        git branch: 'main', url: 'https://github.com/ziyad-11/traffic-optimization-mlops.git'
+    }
+}
 
         stage('Install Dependencies') {
             steps {
