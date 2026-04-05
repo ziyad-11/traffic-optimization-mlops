@@ -11,13 +11,13 @@ pipeline {
 
        stage('Install Dependencies') {
     steps {
-        bat 'python -m pip install -r requirements.txt'
+        bat '"C:\\Users\\ziyad mulla\\AppData\\Local\\Python\\bin\\python.exe" -m pip install -r requirements.txt'
     }
 }
 
         stage('Train Model') {
     steps {
-        bat 'python src/train_model.py'
+        bat '"C:\\Users\\ziyad mulla\\AppData\\Local\\Python\\bin\\python.exe" src/train_model.py'
     }
 }
 
