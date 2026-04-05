@@ -36,6 +36,14 @@ The dataset was created by integrating traffic-related attributes from multiple 
 - Git
 - GitHub Actions
 
+
+## MLOps Tools Used
+- Version control using Git
+- Repository management on GitHub
+- CI/CD pipeline implemented using Jenkins
+- Containerization using Docker
+- API deployment using FastAPI
+
 ---
 
 ## Machine Learning Techniques
