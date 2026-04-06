@@ -65,13 +65,12 @@ flowchart TD
     A[Dataset] --> B[Data Preprocessing]
     B --> C[Feature Encoding]
     C --> D[PCA (Dimensionality Reduction)]
-    D --> E[Model Training<br>(Random Forest + SVM)]
+    D --> E[Model Training (Random Forest + SVM)]
     E --> F[Prediction System]
     F --> G[FastAPI Deployment]
     G --> H[Docker Container]
     H --> I[GitHub Repository]
     I --> J[CI/CD Pipeline]
-
 ---
 
 ## API Deployment
